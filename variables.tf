@@ -7,5 +7,5 @@ variable "repository_description" {
 variable "repository_name" {
   description = "(Optional) The name of the repository."
   type        = string
-  default     = "module-lifecycle-demo"
+  default     = "Module-Lifecycle-Demo"
 }

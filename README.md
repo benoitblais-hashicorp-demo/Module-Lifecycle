@@ -117,7 +117,7 @@ Description: (Optional) The name of the repository.
 
 Type: `string`
 
-Default: `"module-lifecycle-demo"`
+Default: `"Module-Lifecycle-Demo"`
 
 ## Resources
 
