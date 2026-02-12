@@ -61,9 +61,10 @@ according to organizational processes.
 continue to use the version. It is recommended to upgrade to a supported version.
 3. **Revocation**: The platform team marks the new version as revoked. Existing workspaces that have previously used this version can
 continue to run, but new workspaces will be blocked from using the revoked version.
-1. **Upgrade**: The consumer updates their configuration to use the new, recommended version of the module.
+4. **Upgrade**: The consumer updates their configuration to use the new, recommended version of the module.
 
-This workflow demonstrates the full lifecycle of a module from initial provisioning, through deprecation (with warnings), to revocation (with enforcement for new workspaces), ensuring a safe and well-communicated upgrade path for consumers.
+This workflow demonstrates the full lifecycle of a module from initial provisioning, through deprecation (with warnings), to revocation
+(with enforcement for new workspaces), ensuring a safe and well-communicated upgrade path for consumers.
 
 ## Demo Value Proposition
 
@@ -116,7 +117,7 @@ Description: (Optional) The name of the repository.
 
 Type: `string`
 
-Default: `"module-lifecycle-demo"`
+Default: `"Module-Lifecycle-Demo"`
 
 ## Resources
 
