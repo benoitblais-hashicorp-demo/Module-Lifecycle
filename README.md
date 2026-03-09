@@ -61,9 +61,10 @@ according to organizational processes.
 continue to use the version. It is recommended to upgrade to a supported version.
 3. **Revocation**: The platform team marks the new version as revoked. Existing workspaces that have previously used this version can
 continue to run, but new workspaces will be blocked from using the revoked version.
-1. **Upgrade**: The consumer updates their configuration to use the new, recommended version of the module.
+4. **Upgrade**: The consumer updates their configuration to use the new, recommended version of the module.
 
-This workflow demonstrates the full lifecycle of a module from initial provisioning, through deprecation (with warnings), to revocation (with enforcement for new workspaces), ensuring a safe and well-communicated upgrade path for consumers.
+This workflow demonstrates the full lifecycle of a module from initial provisioning, through deprecation (with warnings), to revocation
+(with enforcement for new workspaces), ensuring a safe and well-communicated upgrade path for consumers.
 
 ## Demo Value Proposition
 
@@ -82,7 +83,7 @@ The following requirements are needed by this module:
 
 - <a name="requirement_github"></a> [github](#requirement\_github) (>6.6.0)
 
-- <a name="requirement_random"></a> [random](#requirement\_random) (3.7.2)
+- <a name="requirement_random"></a> [random](#requirement\_random) (3.8.1)
 
 ## Modules
 
@@ -92,7 +93,7 @@ The following Modules are called:
 
 Source: app.terraform.io/benoitblais-hashicorp/repositories/github
 
-Version: 0.0.2
+Version: 0.0.3
 
 ## Required Inputs
 
@@ -116,13 +117,13 @@ Description: (Optional) The name of the repository.
 
 Type: `string`
 
-Default: `"module-lifecycle-demo"`
+Default: `"Module-Lifecycle-Demo"`
 
 ## Resources
 
 The following resources are used by this module:
 
-- [random_id.this](https://registry.terraform.io/providers/hashicorp/random/3.7.2/docs/resources/id) (resource)
+- [random_id.this](https://registry.terraform.io/providers/hashicorp/random/3.8.1/docs/resources/id) (resource)
 
 ## Outputs
 
