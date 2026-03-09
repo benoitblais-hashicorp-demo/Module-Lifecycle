@@ -83,7 +83,7 @@ The following requirements are needed by this module:
 
 - <a name="requirement_github"></a> [github](#requirement\_github) (>6.6.0)
 
-- <a name="requirement_random"></a> [random](#requirement\_random) (3.7.2)
+- <a name="requirement_random"></a> [random](#requirement\_random) (3.8.1)
 
 ## Modules
 
@@ -123,7 +123,7 @@ Default: `"Module-Lifecycle-Demo"`
 
 The following resources are used by this module:
 
-- [random_id.this](https://registry.terraform.io/providers/hashicorp/random/3.7.2/docs/resources/id) (resource)
+- [random_id.this](https://registry.terraform.io/providers/hashicorp/random/3.8.1/docs/resources/id) (resource)
 
 ## Outputs
 
