@@ -9,3 +9,5 @@ module "repositories" {
   name        = "${var.repository_name}${random_id.this.id}"
   description = var.repository_description
 }
+
+# v0.0.9
