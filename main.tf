@@ -4,7 +4,7 @@ resource "random_id" "this" {
 
 module "repositories" {
   source  = "app.terraform.io/benoitblais-hashicorp/repositories/github"
-  version = "0.0.10"
+  version = "0.0.9"
 
   name        = "${var.repository_name}${random_id.this.id}"
   description = var.repository_description
