@@ -93,7 +93,7 @@ The following Modules are called:
 
 Source: app.terraform.io/benoitblais-hashicorp/repositories/github
 
-Version: 0.0.10
+Version: 0.0.11
 
 ## Required Inputs
 
