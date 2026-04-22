@@ -2,7 +2,7 @@ resource "random_id" "this" {
   byte_length = 6
 }
 
-module "repositories" {
+module "repositorie" {
   source  = "app.terraform.io/benoitblais-hashicorp/repositories/github"
   version = "0.0.10"
 
