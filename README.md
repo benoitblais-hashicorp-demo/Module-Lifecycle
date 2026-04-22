@@ -89,7 +89,7 @@ The following requirements are needed by this module:
 
 The following Modules are called:
 
-### <a name="module_repositories"></a> [repositories](#module\_repositories)
+### <a name="module_repositorie"></a> [repositorie](#module\_repositorie)
 
 Source: app.terraform.io/benoitblais-hashicorp/repositories/github
 
@@ -117,7 +117,7 @@ Description: (Optional) The name of the repository.
 
 Type: `string`
 
-Default: `"Module-Lifecycle"`
+Default: `"Module-Lifecycle1"`
 
 ## Resources
 
