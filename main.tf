@@ -9,3 +9,4 @@ module "repositorie" {
   name        = "${var.repository_name}${random_id.this.id}"
   description = var.repository_description
 }
+
